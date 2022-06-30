@@ -9,7 +9,7 @@
       - php
   tasks:
 
-    - name: Uninstall Apache server from all systems and machines (checking the change) test (feature 1 branch)
+    - name: Uninstall Apache server from all systems and machines (checking the change) test (feature 1 branch updated from Github)
       apt:
         name: "{{ apps }}"
         state: absent
