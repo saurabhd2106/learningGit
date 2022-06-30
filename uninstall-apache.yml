@@ -8,7 +8,7 @@
       - apache2
       - php
   tasks:
-    - name: Uninstall Apache server from all systems and machines
+    - name: Uninstall Apache server from all systems and machines ad test
       apt:
         name: "{{ apps }}"
         state: absent
