@@ -1,7 +1,6 @@
 - name: Install Apache on Web server
   hosts: 
-    - web1
-    - web2
+    - local
   tasks:
     - name: Start apache server on webservers (from github) and git (and making changes in gfeature 1)
       service: 

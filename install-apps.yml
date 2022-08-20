@@ -1,7 +1,6 @@
 - name: Install Apache on Web server
   hosts: 
-    - web1
-    - web2
+    - local
   vars:
     apps: 
       app1: apache2
